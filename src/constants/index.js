@@ -35,7 +35,12 @@ import CPLUS from "../assets/company/CPLUS.png";
 import mysql from "../assets/company/mysql.png";
 import davinci from "../assets/company/Davinci.png";
 import tableau from "../assets/tech/tableau.png";
-import Screenshot from "../assets/Screenshot.png";
+import Project1 from "../assets/Project1.png";
+import ETH from "../assets/ETH.png";
+import Nextjs1 from "../assets/Nextjs1.png";
+import threejs1 from "../assets/threejs1.png";
+import genai from "../assets/genai.png";
+import guardiant from "../assets/Logo.jpeg";
 
 // Commented out incorrect import
 // import { px } from "framer-motion"; 
@@ -61,19 +66,27 @@ import Screenshot from "../assets/Screenshot.png";
   const services = [
     {
       title: "Next.js",
-      icon: web,
+      icon: Nextjs1,
     },
     {
       title: "DSA",
       icon: DSA,
     },
-    // {
-    //   title: "Backend Developer",
-    //   icon: backend,
-    // },
+    {
+      title: "WEB3",
+      icon: ETH,
+    },
     {
       title: "Devops",
       icon: mobile,
+    },
+    {
+      title: "Three.js",
+      icon: threejs1,
+    },
+    {
+      title: "Gen AI",
+      icon: genai,
     },
     {
       title: "Data Analytics Using Python",
@@ -83,18 +96,12 @@ import Screenshot from "../assets/Screenshot.png";
       title: "Tableau",
       icon: tableau,
     },
-    {
-      title: "UI/UX Designer",
-      icon:figma,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-    {
-      title: "Video Editor",
-      icon: AfterEffects,
-    },
+    
+    
+    // {
+    //   title: "Video Editor",
+    //   icon: AfterEffects,
+    // },
     
     
   ];
@@ -213,8 +220,31 @@ import Screenshot from "../assets/Screenshot.png";
           color: "pink-text-gradient",
         },
       ],
-      image: Screenshot ,
+      image: Project1,
       source_code_link: "https://github.com/DEEPESH-845/Metaverse.git",
+    },
+
+    
+    {
+      name: "Guardiant",
+      description:
+        "Guardiant is a decentralized Web3 security protocol designed to safeguard users' crypto assets from rug pulls and malicious activities. It employs smart contract automation paired with real-time anomaly detection to activate a self-destructing safety mechanism.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Solidity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Pytorch",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: guardiant ,
+      source_code_link: "https://github.com/DEEPESH-845/Guardiant",
     },
   ];
   
