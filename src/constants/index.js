@@ -22,8 +22,6 @@ import {
   tesla,
   shopify,
   carrent,
-  
-  threejs,
 } from "../assets";
 
 import mlsclogo1 from "../assets/company/mlsclogo1.png";
@@ -39,6 +37,7 @@ import Project1 from "../assets/Project1.png";
 import ETH from "../assets/ETH.png";
 import Nextjs1 from "../assets/Nextjs1.png";
 import threejs1 from "../assets/tech/threejs1.png";
+import threejs from "../assets/tech/threejs.svg";
 import genai from "../assets/genai.png";
 import guardiant from "../assets/Logo.jpeg";
 
@@ -146,7 +145,7 @@ import guardiant from "../assets/Logo.jpeg";
     },
     {
       name: "Three JS",
-      icon: threejs1,
+      icon: threejs,
     },
     {
       name: "git",
