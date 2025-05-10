@@ -38,7 +38,7 @@ import ETH from "../assets/ETH.png";
 import Nextjs1 from "../assets/Nextjs1.png";
 import threejs from "../assets/tech/threejs.svg";
 import threejs1 from "../assets/threejs1.png";
-import genai from "../assets/genai.png";
+import genai from "../assets/tech/genai.png";
 import guardiant from "../assets/Logo.jpeg";
 
 // Commented out incorrect import
