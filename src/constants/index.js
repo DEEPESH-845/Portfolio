@@ -38,7 +38,7 @@ import tableau from "../assets/tech/tableau.png";
 import Project1 from "../assets/Project1.png";
 import ETH from "../assets/ETH.png";
 import Nextjs1 from "../assets/Nextjs1.png";
-import threejs1 from "../assets/Threejs1.png";
+import threejs1 from "../assets/tech/threejs1.png";
 import genai from "../assets/genai.png";
 import guardiant from "../assets/Logo.jpeg";
 
@@ -146,7 +146,7 @@ import guardiant from "../assets/Logo.jpeg";
     },
     {
       name: "Three JS",
-      icon: threejs,
+      icon: threejs1,
     },
     {
       name: "git",
