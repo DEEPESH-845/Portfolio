@@ -40,6 +40,7 @@ import threejs from "../assets/tech/threejs.svg";
 import threejs1 from "../assets/threejs1.png";
 import genai from "../assets/tech/genai.png";
 import guardiant from "../assets/Logo.jpeg";
+import PeriodicTable from "../assets/PeriodicT.png";
 
 // Commented out incorrect import
 // import { px } from "framer-motion"; 
@@ -244,6 +245,28 @@ import guardiant from "../assets/Logo.jpeg";
       ],
       image: guardiant ,
       source_code_link: "https://github.com/DEEPESH-845/Guardiant",
+    },
+
+  {
+      name: "3D Interactive Periodic Table",
+      description:
+        "The Interactive Periodic Table is designed to provide an immersive learning experience for students. By incorporating Three.js, the project allows users to Transform table's Structure in desired forms and hover over elements to receive detailed information, making the learning process more engaging and effective. ",
+      tags: [
+        {
+          name: "Three.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: PeriodicTable ,
+      source_code_link: "https://github.com/DEEPESH-845/Periodic-Table",
     },
   ];
   
