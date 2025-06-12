@@ -41,6 +41,7 @@ import threejs1 from "../assets/threejs1.png";
 import genai from "../assets/tech/genai.png";
 import guardiant from "../assets/Logo.jpeg";
 import PeriodicTable from "../assets/PeriodicT.png";
+import Outlier from "../assets/company/Outlier.png";
 
 // Commented out incorrect import
 // import { px } from "framer-motion"; 
@@ -85,7 +86,7 @@ import PeriodicTable from "../assets/PeriodicT.png";
       icon: threejs1,
     },
     {
-      title: "Gen AI",
+      title: "Agentic AI",
       icon: genai,
     },
     {
@@ -165,33 +166,45 @@ import PeriodicTable from "../assets/PeriodicT.png";
   
   const experiences = [
     
+     {
+      title: "Frontend Developer",
+      company_name: "Outlier.ai",
+      icon: Outlier,
+      iconBg:"#ffffff",
+      date: "May 2025 - Present",
+      points: [
+        "Developed creative user-friendly web applications using Next.js and React.js",
+        "Optimized application performance and ensured cross-browser compatibility.",
+        "Participated in code reviews and also contributed in Ai model training",
+      ],
+    },
+
     {
       title: "Marketing Coordinator",
       company_name: "Microsoft Learn Student Chapter",
       icon: mlsclogo1,
       iconBg:"#383E56",
-      date: " Nov 2023 - Present",
+      date: " Nov 2023 - May 2025",
       
       points:
        [
-        "A student-led organization focused on increasing awareness and adoption of microsoft texhnolgies.",
-        "Organised many tech workshops and our flagship event Makeathon-6 (All India level Hackathon)",
+        "A organization focused on increasing awareness and adoption of microsoft technolgies.",
+        "Organised countless tech workshops and our flagship event Makeathon-6 (All India level Hackathon)",
         "Engaged with peers to enhance learning experiences through workshops and projects",
         
 
       ],
     },
     {
-      title: "Tech Coordinator",
+      title: "Technical Coordinator",
       company_name: "OWASP Student Chapter",
       icon: owasplogo,
       iconBg: "black",
-      date: "Nov 2023 - Present",
+      date: "Nov 2023 - May 2025",
       points: [
         "Organisation focused on improving the security of the software",
-        "Contributed in OWASP TIET Website",
-        "Worked with a team of 3 developers through the development and deployment phase of Capture The Flag (CTF) Website which successfully attracted 2000+ participants ",
-        "Participating in multiple hackathons and gaining insightful experience from the seniors",
+        "Worked with a team of developers through the development and deployment phase of Capture The Flag (CTF) Website which successfully attracted 2000+ participants ",
+        "Organised workshops on web security and secure coding practices",
       ],
     },
   ];
