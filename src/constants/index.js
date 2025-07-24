@@ -41,6 +41,7 @@ import guardiant from "../assets/Logo.jpeg";
 import PeriodicTable from "../assets/PeriodicT.png";
 import Outlier from "../assets/company/Outlier.png";
 import GSAP from "../assets/gsap-white.svg";
+import Cloud from "../assets/Cloud.png";
 
 // Commented out incorrect import
 // import { px } from "framer-motion";
@@ -79,8 +80,8 @@ const services = [
 		icon: threejs1,
 	},
 	{
-		title: "WEB3",
-		icon: ETH,
+		title: "Cloud",
+		icon: Cloud,
 	},
 	{
 		title: "Devops",
