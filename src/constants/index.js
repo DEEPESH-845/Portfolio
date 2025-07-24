@@ -11,8 +11,8 @@ import {
 	html,
 	css,
 	reactjs,
-	redux,
 	tailwind,
+	redux,
 	nodejs,
 	mongodb,
 	git,
@@ -31,14 +31,12 @@ import dataanalytics from "../assets/company/dataanalytics.png";
 import DSA from "../assets/company/DSA.png";
 import CPLUS from "../assets/company/CPLUS.png";
 import mysql from "../assets/company/mysql.png";
-import davinci from "../assets/company/Davinci.png";
 import tableau from "../assets/tech/tableau.png";
 import Project1 from "../assets/Project1.png";
 import ETH from "../assets/ETH.png";
 import Nextjs1 from "../assets/Nextjs1.png";
 import threejs from "../assets/tech/threejs.svg";
 import threejs1 from "../assets/threejs1.png";
-import genai from "../assets/tech/genai.png";
 import guardiant from "../assets/Logo.jpeg";
 import PeriodicTable from "../assets/PeriodicT.png";
 import Outlier from "../assets/company/Outlier.png";
@@ -131,15 +129,19 @@ const technologies = [
 		icon: tailwind,
 	},
 	{
-		name: "Node JS",
-		icon: nodejs,
+		name: "Typescript",
+		icon: typescript,
+	},
+	{
+		name: "Redux Toolkit",
+		icon: redux,
 	},
 	{
 		name: "MongoDB",
 		icon: mongodb,
 	},
 	{
-		name: "MysQl",
+		name: "SQl",
 		icon: mysql,
 	},
 	{
@@ -153,10 +155,6 @@ const technologies = [
 	{
 		name: "figma",
 		icon: figma,
-	},
-	{
-		name: "Davinci",
-		icon: davinci,
 	},
 ];
 
